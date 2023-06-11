@@ -10,6 +10,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { BannerComponent } from './banner/banner.component';
 import { ResponsiveDirective } from './directives/responsive.directive';
 import { ContactComponent } from './contact/contact.component';
+import { WorkExpComponent } from './work-exp/work-exp.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ContactComponent } from './contact/contact.component';
     BannerComponent,
     ResponsiveDirective,
     ContactComponent,
+    WorkExpComponent,
   ],
   imports: [
     BrowserModule,
