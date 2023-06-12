@@ -1,5 +1,19 @@
 <div class="container">
     <h1>Work Experience</h1>
+    <section *ngFor="let experience of experience_list">
+        <h2>
+            {{experience.title}}</h2>
+
+
+        <h3>
+            <span>Technologies: </span>
+            <span>{{experience.technologies}}</span>
+        </h3>
+
+        <ul *ngFor="let desc of experience.description">
+            <li>{{desc}}</li>
+        </ul>
+    </section>
 
 
 </div>
