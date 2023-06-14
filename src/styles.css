@@ -12,11 +12,6 @@
     --grey: #3f515a;
 }
 
-* {
-    margin: 0%;
-    box-sizing: border-box;
-}
-
 
 .container {
     margin: 0 auto;
