@@ -1,5 +1,5 @@
 :host {
-    display: block;
+    display: grid;
     padding: 4rem 2rem 6rem;
     background-color: var(--dark-gray);
     clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
