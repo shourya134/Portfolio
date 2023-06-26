@@ -1,9 +1,10 @@
-<div class="container">
+<div class="container" id="wrk-exp">
     <h1>Work Experience</h1>
     <section *ngFor="let experience of experience_list">
         <h2>
-            {{experience.title}}</h2>
-
+            {{experience.title}}</h2> 
+            <p>Working at</p>
+            <h2>{{experience.company_name}}</h2>
 
         <h3>
             <span>Technologies: </span>

@@ -1,5 +1,5 @@
 :host {
-    display: block;
+    display: grid;
     color: white;
     padding: 2rem 3rem;
 }

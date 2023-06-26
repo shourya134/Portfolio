@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    margin:0%;
+    margin:0;
     box-sizing: border-box;
 }
 :root {
@@ -28,10 +28,10 @@ h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html,body
+html
 {
-    width: 100%;
-    height: 100%;
+    scroll-padding-top: 100px;
+    scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 

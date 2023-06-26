@@ -14,14 +14,14 @@ export class SkillsComponent {
       rating: 85,
     },
     {
-      name: 'ASP.NET Core, EF Core',
-      level: 'Intermidiate',
-      rating: 70,
+      name: 'Python',
+      level: 'Expert',
+      rating: 90,
     },
     {
       name: 'HTML, CSS, JS',
-      level: 'Expert',
-      rating: 90,
+      level: 'Intermidiate',
+      rating: 75,
     },
     {
       name: 'JAVA',
@@ -29,10 +29,16 @@ export class SkillsComponent {
       rating: 80,
     },
     {
-      name: 'C++',
+      name: 'C/C++',
       level: 'Intermidiate',
       rating: 70,
     },
+    {
+      name: 'SQL',
+      level: 'Intermidiate',
+      rating: 75
+    }
+
   ];
   constructor() {}
 

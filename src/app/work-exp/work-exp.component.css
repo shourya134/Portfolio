@@ -21,6 +21,9 @@ section ul {
     margin-top: 0.5rem;
     list-style: circle;
 }
+section p{
+    color: var(--gray-light)
+}
 
 /* PC */
 

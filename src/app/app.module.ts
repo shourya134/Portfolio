@@ -11,6 +11,7 @@ import { BannerComponent } from './banner/banner.component';
 import { ResponsiveDirective } from './directives/responsive.directive';
 import { ContactComponent } from './contact/contact.component';
 import { WorkExpComponent } from './work-exp/work-exp.component';
+import { NavMenuComponent } from './nav-menu/nav-menu.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { WorkExpComponent } from './work-exp/work-exp.component';
     ResponsiveDirective,
     ContactComponent,
     WorkExpComponent,
+    NavMenuComponent,
   ],
   imports: [
     BrowserModule,
