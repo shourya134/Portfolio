@@ -2,6 +2,7 @@
     display: grid;
     color: white;
     padding: 2rem 3rem;
+    overflow: hidden;
 }
 
 ul {

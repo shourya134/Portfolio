@@ -1,14 +1,15 @@
 nav {
-    position:sticky;
+    position:fixed;
     top: 0;
     z-index: 10;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--grey);
     box-shadow: 10px 3px 100px rgba(202, 10, 10, 0.1);
     width: 100%;
     background-color:steelblue;
+    overflow-x: hidden;
 }
 nav h1 {
     color: var(--primary-color);
@@ -24,7 +25,7 @@ nav ul {
     display: none;
 }
 button{
-    display: block;
+    display: flex;
 }
 
 
@@ -32,7 +33,7 @@ button{
 
 
 :host.pc nav {
-    position:sticky;
+    position:fixed;
     top: 0;
     z-index: 10;
     display: flex;

@@ -1,9 +1,11 @@
 :host {
     display: block;
     background-color: var(--black);
+    overflow-x:hidden;
 }
 
 :host.pc .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
