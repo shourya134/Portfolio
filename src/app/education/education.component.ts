@@ -9,7 +9,7 @@ export class EducationComponent {
   educationList: Education[] = [
     {
       institute: "University of Toronto",
-      course: 'Hbsc in Physics, mathematics and computer science',
+      course: 'HBSc. in Physics, Mathematics and Computer Science',
       duration: '2017-2022',
       score: ''
       ,
