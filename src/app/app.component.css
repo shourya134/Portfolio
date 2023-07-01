@@ -1,6 +1,6 @@
 :host {
     display: block;
-    background-color: var(--black);
+    background-color:rgb(30, 30, 30);
     overflow-x:hidden;
 }
 

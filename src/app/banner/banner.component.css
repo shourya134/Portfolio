@@ -1,8 +1,11 @@
 :host {
     display: grid;
     padding: 4rem 2rem 6rem;
-    background-image: url("../../assets/pexels-steve-johnson-1509534.jpg");
+    background-image: url("../../assets/bg.jpg");
+    background-size:auto;
     clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
+    padding-top: 17%;
+    background-image: -webkit-linear-gradient();
 }
 
 .container {
@@ -14,10 +17,9 @@
     font-size: 4rem;
     padding: 0 0 2rem;
     text-align: center;
-    font-style: italic;
-    color: var(--green);
-    text-decoration: underline;
+    color: aquamarine;
     font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 5px 3px 7px slateblue;
 }
 
 .name {
@@ -55,22 +57,14 @@
 }
 
 .profile {
-    width: 300px;
-    height: 300px;
+    width: 240px;
+    height: 400px;
     grid-row: 2/3;
     margin: 0 auto;
     position: relative;
     clip-path: inset(0 round 10%);
 }
 
-.profile .profile-bg {
-    height: 100%;
-    width: 100%;
-    bottom: 0%;
-    position: absolute;
-    background-color: #69F0AE;
-    clip-path: inset(0 round 50% 0 0);
-}
 
 .profile img {
     width: 100%;
@@ -83,7 +77,9 @@
 :host.pc {
     padding: 4rem 2rem 10rem;
     clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
-    padding-top: 10%;
+    padding-top: 5%;
+    width: 100%;
+    margin: auto;
 }
 
 :host.pc .container {
