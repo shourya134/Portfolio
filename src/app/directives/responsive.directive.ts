@@ -1,5 +1,5 @@
 import { Directive, ElementRef } from '@angular/core';
-import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 
 @Directive({
   selector: '[appResponsive]'
