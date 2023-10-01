@@ -16,6 +16,17 @@ export class ProjectsComponent {
 ,
       ],
     },
+
+    {
+      title: 'Cross Correlation and spectral analysis of earth quakes in Python ',
+      technologies: 'Python, Fourier Transformation, Data Visualization',
+      description: [
+        'Built an experiment using seismographic data to check if bit converted cross correlation preserves phase information while compared to true cross correlation. Furthermore, used seismographic data to identify the normal modes of the earthquakes using power spectrum and Fourier transformations',
+'Computed Cross Correlation of park Hill and Mammoth Lake seismograms using Fourier transformation and regressed the data as a function of frequency and compared it to bit converter cross correlation to find out most the 2 graphs represent completely different trends even though bit conversion is often used for cross correlation(Green’s function method)',
+'Computed the Power spectrum from the raw data. Thereafter, removed its trend to objectively identify normal modes of the power spectrum to objectively focus on the seismic effects of the earthquake itself.'
+,
+      ],
+    },
     {
       title: 'Implemented a bank teller in JAVA ',
       technologies: 'Java, Kotlin',

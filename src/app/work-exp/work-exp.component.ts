@@ -12,11 +12,11 @@ export class WorkExpComponent {
       title: 'Data Analyst ',
       technologies: 'Nvivo, Python, Nemo, Sklearn', 
       description: [
-        'Conducted rigorous data collection and analysis of video and audio data', 
-'A part of the analysis process from the start of the process and will follow through till the end',
-'Took an innovative approach and used machine learning techniques of sklearn and nemo python libraries to convert audio files into transcripts making the process 10 times faster',
-'For further Used speaker diarization techniques to tell different speakers apart with upwards of 80 percent accuracy and in turn, saved over 130 hours of company time within my first month of starting my job' ,
-'Thematized the data categories making it easier to search and use patterns ' 
+        'Investigating the cognitive effects of using virtual reality devices in educational institutions focusing on information processing and communication.', 
+'Led query-based data collection, thematization and analysis of video and audio interview data.',
+'Designed an ML model in independently by utilizing Python Libraries such as Nemo, Google text to speech & Sklearn. The model transcribes and diarizes audio files efficiently and accurately saving the project time and money (130 hours of work). The code can also be adapted for future projects',
+'Analyzed biometric data from virtual reality participants, using time series analysis to determine participants with least bias thus ensuring the data collected is reliable and objective.' ,
+'Designed an animation system in Unity and C# that will be the basis for creating a dynamic and immersive virtual world that will aid users to retain the concept their experience more effectively.' 
 ,
       ],
     },
